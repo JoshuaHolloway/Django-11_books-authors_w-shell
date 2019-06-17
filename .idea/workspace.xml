@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3368d9b3-c71f-465f-9f75-a2b9360e4bfb" name="Default Changelist" comment="" />
+    <list default="true" id="3368d9b3-c71f-465f-9f75-a2b9360e4bfb" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/queries.txt" beforeDir="false" afterPath="$PROJECT_DIR$/queries.txt" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,8 +54,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1921" />
-    <option name="y" value="-11" />
+    <option name="x" value="1881" />
+    <option name="y" value="-29" />
     <option name="width" value="1932" />
     <option name="height" value="1052" />
   </component>
