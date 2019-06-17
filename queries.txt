@@ -20,6 +20,11 @@ Query 3: Change the name of the C Sharp book to C#
 >>> book.save()
 ================================================================================
 Query: Change the first name of the 4th author to Bill
+>>> Author.objects.all()
+>>> Author.objects.all().values()
+>>> author = Author.objects.get(id=4)
+>>> author.first_name = "Bill"
+>>> author.save()
 ================================================================================
 Query: Assign the first author to the first 2 books
 ================================================================================
