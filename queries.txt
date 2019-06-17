@@ -27,9 +27,9 @@ Query: Change the first name of the 4th author to Bill
 >>> author.save()
 ================================================================================
 Query: Assign the first author to the first 2 books
->>> book1 = Book.objects.get(id=2)
->>> book2 = Book.objects.get(id=3)
->>> author1 = Author.objects.get(id=2)
+>>> book1 = Book.objects.get(id=1)
+>>> book2 = Book.objects.get(id=2)
+>>> author1 = Author.objects.get(id=1)
 >>> book1.authors.add(author1)
 >>> book2.authors.add(author1)
 
@@ -42,18 +42,27 @@ Query: Assign the first author to the first 2 books
 >>> author1.books.all().values()
 ================================================================================
 Query: Assign the second author to the first 3 books
+TODO
 ================================================================================
 Query: Assign the third author to the first 4 books
+TODO
 ================================================================================
 Query: Assign the fourth author to the first 5 books (or in other words, all the books)
+TODO
 ================================================================================
 Query: Retrieve all the authors for the 3rd book
+>>> book3 = Book.objects.get(id=3)
+>>> book3.authors.all()
 ================================================================================
 Query: Remove the first author of the 3rd book
+TODO
 ================================================================================
 Query: Add the 5th author as one of the authors of the 2nd book
+TODO
 ================================================================================
 Query: Find all the books that the 3rd author is part of
+TODO
 ================================================================================
 Query: Find all the authors that contributed to the 5th book
+TODO
 ================================================================================
